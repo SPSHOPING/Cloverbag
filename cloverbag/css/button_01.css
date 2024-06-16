@@ -1,0 +1,24 @@
+.btn-01 {
+    width: 120px;
+    height: 40px;
+    background-color: #004fff;
+    color: #ffffff;
+    border: none;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.26);
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 20px;
+    left: 95%;
+    top: 4%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    transition:0.3s;
+}
+.btn-01:focus {
+    outline: 0;
+}
+.btn-01:hover {
+    background-color: rgba(0, 79, 255, 0.9);
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 79, 255, 0.6);
+}
